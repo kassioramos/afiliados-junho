@@ -46,7 +46,7 @@ export default function ProductPage({ params }: PageProps) {
     
     // Mapeamento dos links de afiliado por slug
     const links: Record<string, string> = {
-      "protocolo-cristao": "https://pay.kiwify.com.br/https://cristaosdehonra.com/protocolo",
+      "protocolo-cristao": "https://pay.kiwify.com.br/P9j2gSg?afid=fpkEcVui",
       "outro-produto": "https://pay.kiwify.com.br/OUTRO_LINK",
     };
 
