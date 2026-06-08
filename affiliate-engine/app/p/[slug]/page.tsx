@@ -46,7 +46,8 @@ export default function ProductPage({ params }: PageProps) {
     // Mapeamento dos links de afiliado reais por slug
     const links: Record<string, string> = {
       "protocolo-cristao": "https://pay.kiwify.com.br/P9j2gSg?afid=fpkEcVui",
-      "super-presell": "https://superpresell.top/site-oficial/?utm_source=seu_afid_aqui", 
+      "super-presell": "https://pay.kiwify.com.br/pZhvGxm?afid=e0BxPARf", 
+      "Metodo-viver-de-internet": "https://pay.kiwify.com.br/MCKpf7P?afid=vID0rsIG", 
     };
 
     // Redireciona ou usa fallback seguro
