@@ -14,7 +14,7 @@ export default function ProductPage({ params }: PageProps) {
   useEffect(() => {
     const trackView = async () => {
       try {
-        await supabase.from("analytics").insert([
+        await supabase.from("page_analytics").insert([
           { 
             product_slug: slug, 
             event_type: "view", 
@@ -32,7 +32,7 @@ export default function ProductPage({ params }: PageProps) {
   // 2. Função para registrar o clique antes de ir para a Kiwify
   const handleCheckout = async () => {
     try {
-      await supabase.from("analytics").insert([
+      await supabase.from("page_analytics").insert([
         { 
           product_slug: slug, 
           event_type: "click", 
